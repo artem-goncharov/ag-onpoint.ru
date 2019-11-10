@@ -1,0 +1,95 @@
+* { margin: 0; padding: 0; }
+body { width: 1024px; height: 768px; }
+
+div#wrapper {
+	width: 1024px;
+	height: 768px;
+	background: url(../images/bg.png);
+	position: relative;
+}
+div#logo {
+	width: 216px;
+	height: 72px;
+	background: url(../images/logo.png);
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+div#navPrev {
+	width: 32px;
+	height: 59px;
+	background: url(../images/arrows.png);
+	position: absolute;
+	cursor: pointer;
+	top: 350px;
+	left: 11px;
+}
+div#navNext {
+	width: 32px;
+	height: 59px;
+	background: url(../images/arrows.png);
+	background-position: -32px 0;
+	position: absolute;
+	cursor: pointer;
+	top: 350px;
+	right: 11px;
+}
+input#send {
+	width: 32px;
+	height: 59px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	cursor: pointer;
+}
+div#oldman {
+	width: 660px;
+	height: 380px;
+	background: url(../images/oldman.png);
+	background-position: 0 -380px;
+	position: absolute;
+	top: 75px;
+	left: 175px;
+}
+div#figures {
+	width: 768px;
+	height: 20px;
+	background: url(../images/figures.png);
+	position: absolute;
+	top: 458px;
+	left: 128px;
+	z-index: 2;
+}
+div#rollerBox {
+	width: 820px;
+	height: 102px;
+	position: absolute;
+	z-index: 1;
+	top: 445px;
+	left: 108px;
+}
+div#roller {
+	width: 54px;
+	height: 102px;
+	background: url(../images/roller.png);
+	position: relative;
+}
+div#buttons {
+	width: 522px;
+	height: 55px;
+	position: absolute;
+	top: 585px;
+	left: 260px;
+}
+div#per1, div#per2, div#per3 {
+	width: 164px;
+	height: 55px;
+	background: url(../images/buttons.png);
+	float: left;
+}
+div#per1, div#per2 { margin-right: 15px; }
+
+div#form {
+	display: none;
+}
